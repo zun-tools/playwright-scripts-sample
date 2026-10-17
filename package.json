@@ -1,0 +1,17 @@
+{
+  "name": "shopping-memo-mcp-cli",
+  "version": "1.0.0",
+  "description": "買い物メモ（Playwright 再入門 4 のサンプル）",
+  "scripts": {
+    "serve": "http-server -p 8080 -s ."
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.5",
+    "http-server": "^14.1.1",
+    "playwright": "^1.64.0"
+  },
+  "private": true
+}
